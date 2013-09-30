@@ -1,0 +1,43 @@
+.cell {
+    height: 10px;
+    width: 10px;
+    border: 1px solid grey;
+    display: block;
+}
+
+.alive {
+    background-color: black;
+}
+
+.dead {
+    background-color: white;
+}
+
+.col {
+    display: inline-block;
+}
+
+.game_outer {
+    float: right;
+    right: 50%;
+    position: relative;
+}
+
+#game {
+    float: right;
+    right: -50%;
+    position: relative;
+}
+
+.controls_outer {
+    clear: both;
+    float: right;
+    right: 50%;
+    position: relative;
+}
+
+#controls {
+    right: -50%;
+    display: inline-block;
+    position: relative;
+}
